@@ -16,10 +16,14 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .fxsb__wrapper {
 =======
 .header__wrapper {
 >>>>>>> lesson-three
+=======
+.header__wrapper {
+>>>>>>> lesson-fourth
     display: flex;
     justify-content: space-between;
 }
@@ -55,9 +59,12 @@ body {
     padding-top: 45px;
     padding-bottom: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> lesson-three
+=======
+>>>>>>> lesson-fourth
 }
 
 .about__text-wrapper {
@@ -94,13 +101,18 @@ body {
     color: #445161;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     line-height: 36px;
 >>>>>>> lesson-three
+=======
+    line-height: 36px;
+>>>>>>> lesson-fourth
     margin-bottom: 29px;
 }
 
 .pluses__wrapper {
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 568px;
 }
@@ -124,6 +136,8 @@ body {
 }
 
 =======
+=======
+>>>>>>> lesson-fourth
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
@@ -349,4 +363,138 @@ body {
     color: #445161;
     margin-bottom: 19px;
 }
+<<<<<<< HEAD
 >>>>>>> lesson-three
+=======
+
+.contacts {
+    background-color: #445161;
+    padding-top: 25px;
+    padding-bottom: 48px;
+}
+
+.contacts__title {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 43px; 
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 503px;
+}
+
+.contacts__form-input {
+    padding: 12px 12px 7px;
+    color: #445162;
+    border-radius: 5px;
+    margin-bottom: 19px;
+    font-size: 16px;
+    border: none;
+}
+
+.textarea {
+    height: 173px;
+    resize: none;
+    overflow: hidden;
+}
+
+.contacts__form-botton {
+    width: 143px;
+    height: 43px;
+    align-self: center;
+    background-color: #ffffff;
+    color: #445162;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.contacts__info {
+    margin-left: 45px;
+}
+
+.contacts__list {
+    font-size: 16px;
+    color: #fff;
+    line-height: 2.5;
+    margin-bottom: 47px;
+}
+
+.contacts__list-item {
+    padding-left: 27px;
+}
+
+.contacts__list-item:nth-child(1) {
+    content: "";
+    background: url(../img/skype.svg) 0 no-repeat;
+}
+
+.contacts__list-item:nth-child(2) {
+    content: "";
+    background: url(../img/icq.svg) 0 no-repeat;
+}
+
+.contacts__list-item:nth-child(3) {
+    content: "";
+    background: url(../img/email.svg) 0 no-repeat;
+}
+
+.contacts__list-item:nth-child(4) {
+    content: "";
+    background: url(../img/phone.svg) 0 no-repeat;
+}
+
+.contacts__social-item {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.contacts__social-item:not(:last-of-type) {
+    margin-right: 7px;
+}
+
+.contacts__social-item:nth-child(1) {
+    content: "";
+    background: url(../img/twitter.png) no-repeat center center;
+}
+
+.contacts__social-item:nth-child(2) {
+    content: "";
+    background: url(../img/vk.png) no-repeat center center;
+}
+
+.contacts__social-item:nth-child(3) {
+    content: "";
+    background: url(../img/google.png) no-repeat center center;
+}
+
+.contacts__social-item:nth-child(4) {
+    content: "";
+    background: url(../img/facebook.png) no-repeat center center;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    padding: 12px 0;
+}
+
+.footer__info {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #445162;
+    text-align: center;
+}
+>>>>>>> lesson-fourth
