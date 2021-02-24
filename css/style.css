@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #445161;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.fxsb__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.header__list-item::before {
+    content: "";
+    padding-left: 21px;
+    background: url(../img/check.svg) 0 no-repeat;
+}
+
+.header__list-item {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.header__list-item:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+.header__image {
+    width: 472px;
+    height: 217px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.about {
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+}
+
+.about__text-wrapper {
+    width: 646px;
+}
+
+.about__title {
+    font-size: 30px;
+    margin-bottom: 17px;
+    color: #445161;
+}
+
+.about__info {
+    color: #333333;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+
+.about__video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.pluses {
+    background-color: #F5F5F5;
+    padding-top: 25px;
+    padding-bottom: 48px;
+}
+
+.pluses__title {
+    font-size: 30px;
+    color: #445161;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.pluses__wrapper {
+    width: 568px;
+}
+
+.pluses__info::before {
+    content: url("../img/plusicon.svg");
+    display: block;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+.pluses__info {
+    display: flex;
+    font-size: 16px;
+    color: #333333;
+    line-height: 24px;
+}
+
+.pluses__info:not(:last-of-type) {
+    margin-bottom: 34px;
+}
+
