@@ -1,2 +1,2 @@
 # tt-artbord
-Template for learning HTML5 and CSS3
+Simple HTML5 and CSS3 template
