@@ -15,15 +15,7 @@ body {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.fxsb__wrapper {
-=======
 .header__wrapper {
->>>>>>> lesson-three
-=======
-.header__wrapper {
->>>>>>> lesson-fourth
     display: flex;
     justify-content: space-between;
 }
@@ -58,13 +50,6 @@ body {
 .about {
     padding-top: 45px;
     padding-bottom: 50px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> lesson-three
-=======
->>>>>>> lesson-fourth
 }
 
 .about__text-wrapper {
@@ -100,44 +85,11 @@ body {
     font-size: 30px;
     color: #445161;
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     line-height: 36px;
->>>>>>> lesson-three
-=======
-    line-height: 36px;
->>>>>>> lesson-fourth
     margin-bottom: 29px;
 }
 
 .pluses__wrapper {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 568px;
-}
-
-.pluses__info::before {
-    content: url("../img/plusicon.svg");
-    display: block;
-    padding-right: 8px;
-    padding-top: 5px;
-}
-
-.pluses__info {
-    display: flex;
-    font-size: 16px;
-    color: #333333;
-    line-height: 24px;
-}
-
-.pluses__info:not(:last-of-type) {
-    margin-bottom: 34px;
-}
-
-=======
-=======
->>>>>>> lesson-fourth
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
@@ -363,9 +315,6 @@ body {
     color: #445161;
     margin-bottom: 19px;
 }
-<<<<<<< HEAD
->>>>>>> lesson-three
-=======
 
 .contacts {
     background-color: #445161;
@@ -497,4 +446,3 @@ body {
     color: #445162;
     text-align: center;
 }
->>>>>>> lesson-fourth
